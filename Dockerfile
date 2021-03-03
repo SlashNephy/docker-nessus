@@ -9,7 +9,7 @@ RUN apt-get update \
         tzdata \
     \
     # Install
-    dpkg -i /tmp/Nessus.deb \
+    && dpkg -i /tmp/Nessus.deb \
     \
     # Clean
     && apt-get clean \
